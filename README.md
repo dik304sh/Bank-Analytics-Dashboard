@@ -39,5 +39,8 @@ Data was imported from a **CSV file**, cleaned, and modeled using Power BI.
 - **Non-verified and defaulted loans** indicate areas for operational improvement.  
 - Top-performing branches contribute significantly to total loan distribution.
 
+--
+**6.Screenshot**
+url:https://github.com/dik304sh/diks304sh/blob/main/Bank%20Loan%20Dashboard.jpeg
   
 
