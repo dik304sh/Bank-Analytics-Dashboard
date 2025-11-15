@@ -1,45 +1,99 @@
-# diks304sh
-## Bank Analytics Dashboard – Data Analyst Capstone / Internship Project
+# 🏦 Bank Loan Dashboard
 
-## 1.Project Purpose
-To analyze and visualize bank loan data for identifying trends, tracking loan performance, and understanding customer demographics.  
-The dashboard enables stakeholders to monitor **loan disbursement, defaults, collections, and client profiles** for better data-driven decisions.  
+This dashboard analyzes loan distribution, loan recovery, client demographics, and delinquency trends to provide a complete overview of bank lending performance.
 
 ---
 
-## 2.Tech Stack Used
-**Power BI** – for dashboard development and visualization  
-**Excel / CSV** – as raw data source for import  
-**DAX (Data Analysis Expressions)** – for KPI and measure creation  
-**Power Query** – for data cleaning and transformation  
+## 1. 🎯 Project Objective
+- Analyze overall loan amount and collections  
+- Track defaulted and non-verified loans  
+- Understand loan distribution by age, religion, grade & status  
+- Identify top-performing branches  
+- Examine loan disbursement trends over years  
+- Analyze region-wise loan distribution
 
 ---
 
-## 3.Data Source Overview
-The dataset includes key loan-related details such as:  
-**Loan Amount, Loan Status, Age Group, Religion, Branch Name, Grade, State, and Year.**  
-Data was imported from a **CSV file**, cleaned, and modeled using Power BI.  
+## 2. 📂 Dataset Information
+- **Source:** Bank Loan & Client Data  
+- **Data Type:** Loan application & disbursement data  
+- **Includes:**  
+  - Loan Amount  
+  - Loan Status  
+  - Customer Age  
+  - Religion  
+  - Branch  
+  - State  
+  - Disbursement Year  
 
 ---
 
-## 4.Dashboard Features & Highlights
-- Interactive filters by **Year, Age, and Loan Status**  
-- KPIs: **Total Loan Amount, Defaulted Loans, Non-Verified Loans, Total Collection**  
-- Visuals: **Loan Amount by Age, Religion, Grade, and State**  
-- **Top 5 Branches** by total loan disbursement  
-- **Trend Analysis** by Financial Year  
-- Designed with a **clean, business-ready layout**  
+## 3. 🧹 Data Preparation
+Performed in **Power BI**:
+
+- Cleaned null and inconsistent values  
+- Standardized loan status labels  
+- Applied transformations for age groups & religious categories  
+- Created DAX measures:
+  - Sum of Loan Amount  
+  - Total Recovered Interest  
+  - Defaulted Loans  
+  - Total Collection  
+  - Non-verified Loan Count  
 
 ---
 
-## 5.Key Insights
-- Majority of loans belong to the **26–35 age group**.  
-- **Active Loans** dominate overall disbursement volume.  
-- **Non-verified and defaulted loans** indicate areas for operational improvement.  
-- Top-performing branches contribute significantly to total loan distribution.
+📸 *Dataset:*  
+(Add dataset link here)
 
---
-## 6.Screenshot
-url:https://github.com/dik304sh/diks304sh/blob/main/Bank%20Loan%20Dashboard.jpeg
-  
+---
+
+## 4. 🧩 Data Modeling
+- Designed a **Star Schema Model**  
+- Built relations between fact_Loan & dimension tables  
+- Added DAX-based KPIs and calculated fields  
+
+📸 *Data Model:*  
+(Add data model link here)
+
+---
+
+## 5. 📊 Dashboard Features
+
+### 🔹 KPI Summary
+- **Sum of Loan Amount:** 751M  
+- **Total Recovered Interest:** 155.29M  
+- **Defaulted Loans:** 1020  
+- **Non-Verified Loans:** 17K  
+- **Delinquent Client Count:** 7106  
+- **Total Collection:** 156.51M  
+
+### 🔹 Visuals Included
+- Loan Amount by Age Group  
+- Loan Amount by Religion  
+- Loan Status Distribution  
+- Loan Amount by Grade  
+- Top 5 Branches by Loan Amount  
+- Loan Amount by Disbursement Year  
+- Loan Amount by State  
+
+📸 *Dashboard Screenshot:*  
+(Upload screenshot → add link)
+
+---
+
+## 6. 💡 Key Insights
+- Age group **26–35** holds the highest loan amount  
+- Hindu clients contribute nearly **75%** of the total loan distribution  
+- Majority loans are **Active** followed by **Fully Paid**  
+- Branch **Mathura** has the highest loan amount  
+- Loan disbursement peaked in **FY 2018**  
+- Uttar Pradesh contributes the maximum state-wise loan amount  
+
+---
+
+## 7. 🛠️ Tech Stack
+- **Tool:** Power BI  
+- **Techniques:** DAX, Slicers, Data Modeling, ETL  
+- **Visual Types:** Bar, Line, Donut, Tree, KPI Cards  
 
