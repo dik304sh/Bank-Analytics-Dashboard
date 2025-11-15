@@ -73,7 +73,7 @@ https://github.com/dik304sh/Bank-Analytics-Dashboard/blob/main/Bank%20Data%20Ana
 - Loan Amount by State  
 
 📸 *Dashboard Screenshot:*  
-(Upload screenshot → add link)
+https://github.com/dik304sh/Bank-Analytics-Dashboard/blob/main/Bank%20Loan%20Dashboard.jpeg
 
 ---
 
